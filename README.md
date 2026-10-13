@@ -58,7 +58,7 @@ node --test tests/gallery.test.cjs
 
 План: публичный репозиторий `DonnyHipp/pavel-toloknov`, GitHub Pages → **Deploy from a branch** → ветка **site**, папка **/(root)**. Файл `.nojekyll` позволяет отдавать статические файлы напрямую. В `main` и `master` не пушить; коммит и push выполнять только по отдельному явному разрешению.
 
-Планируемый адрес: `https://donnyhipp.github.io/pavel-toloknov/`. Он пока не подтверждён публикацией. После включения Pages и проверки точного HTTPS-адреса:
+Опубликовано: `https://donnyhipp.github.io/pavel-toloknov/`. Пункты 1–3 выполнены; при переезде на `ptoloknov.ru` заменить адрес в `canonical`, `og:url`, `og:image`, JSON-LD и `sitemap.xml`:
 
 1. Добавить в `<head>` `link rel="canonical"` и `meta property="og:url"` с подтверждённым URL.
 2. Заменить `og:image` и JSON-LD `image` на абсолютный HTTPS-адрес портрета; добавить JSON-LD `url` для страницы и человека.
